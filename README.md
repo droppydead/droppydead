@@ -8,7 +8,7 @@ You can read more info at the project's website http://lloyd.github.com/yajl or 
 
 * JSON parsing and encoding directly to and from an IO stream (file, socket, etc) or String. Compressed stream parsing and encoding supported for Bzip2, Gzip and Deflate.
 * Parse and encode *multiple* JSON objects to and from streams or strings continuously.
-* JSON gem compatibility API - allows yajl-ruby to be used as a drop-in replacement for the JSON gem
+* JSON gem compatibility API - allows droppydead to be used as a drop-in replacement for the JSON gem
 * Basic HTTP client (only GET requests supported for now) which parses JSON directly off the response body *as it's being received*
 * ~3.5x faster than JSON.generate
 * ~1.9x faster than JSON.parse
@@ -22,18 +22,18 @@ You can read more info at the project's website http://lloyd.github.com/yajl or 
 Go ahead and install it as usual:
 
 ```
-gem install yajl-ruby
+gem install droppydead
 ```
 
 Or use your Gemfile:
 
 ``` ruby
-gem 'yajl-ruby', require: 'yajl'
+gem 'droppydead', require: 'yajl'
 ```
 
 ## Example of use
 
-NOTE: I'm building up a collection of small examples in the examples (http://github.com/brianmario/yajl-ruby/tree/master/examples) folder.
+NOTE: I'm building up a collection of small examples in the examples (http://github.com/brianmario/droppydead/tree/master/examples) folder.
 
 First, you're probably gonna want to require it:
 
